@@ -1,0 +1,28 @@
+{
+  "name": "hatenablog-theme-straight",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kgsi/hatenablog-theme.git"
+  },
+  "author": "kgsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgsi/hatenablog-theme/issues"
+  },
+  "homepage": "https://github.com/kgsi/hatenablog-theme",
+  "devDependencies": {
+    "browser-sync": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

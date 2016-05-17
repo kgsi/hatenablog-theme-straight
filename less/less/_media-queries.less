@@ -1,0 +1,138 @@
+/* Media Queries - Retina Display */
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .hatena-module-search-box .search-module-button {
+        background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+        background-size: 20px 20px;
+    }
+}
+
+/* Media Queries - Tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #container {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    #box2 {
+        width: 100%;
+    }
+    .hatena-module {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    #box2-inner {
+    }
+
+}
+
+/* Media Queries - Small Tablet & Smartphone */
+
+@media (max-width: 767px) {
+
+    #globalheader-container {
+        position: static;
+    }
+
+    #container {
+        width: 100%;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+
+	#blog-title {
+		height: 200px;
+	}
+
+	#content-inner {
+		display: block;
+	}
+
+    #wrapper,aside#box2 {
+        width: 100%;
+        display: block;
+		background: #FFF;
+    }
+
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    .entry {
+        padding: 0 30px;
+    }
+
+    .entry-header,
+    .entry-content,
+    .entry-footer {
+        padding: 0;
+        width: 100%;
+    }
+
+    .page-entry {
+        .entry-header,
+        .entry-content,
+        .entry-footer {
+            padding: 0;
+            width: 100%;
+        }
+    }
+
+	.page-archive {
+		#main {
+			h2,
+			.blog_archive {
+				width: 100%;
+				margin: 0 auto 20px auto;
+				padding: 0 15px;
+			}
+		}
+
+		.archive-entries {
+			margin-bottom: 20px;
+			padding: 0 15px;
+
+			.archive-entry {
+				padding: 0;
+	            width: 100%;
+			}
+		}
+	}
+
+
+
+
+    #box2 {
+        width: 100%;
+        float: none;
+    }
+
+    #box2-inner {
+        width: 100%;
+    }
+
+    .hatena-module {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .entry-header-menu {
+        top: -30px;
+        left: 0px;
+    }
+
+}
+
+/* Media Queries - Smartphone */
+
+@media (max-width: 480px) {
+
+}
