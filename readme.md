@@ -1,4 +1,4 @@
-##hatenablog-theme-straight
+#hatenablog-theme-straight
 [Straight - テーマ ストア - はてなブログ](http://blog.hatena.ne.jp/-/store/theme/6653812171396210945)
 
 
